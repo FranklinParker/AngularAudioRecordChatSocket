@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887e5e91-c7e1-4bf7-9f5e-c010199fbf67" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css" afterPath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.html" afterPath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/client/src/app/socket/models/chat-message.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts" afterPath="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts" afterPath="$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts" />
+      <change beforePath="$PROJECT_DIR$/nodeserver/server.js" afterPath="$PROJECT_DIR$/nodeserver/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,28 +35,18 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nodeserver/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="152">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodeserver/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chat.component.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="chat.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="100">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -62,11 +54,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="chat-message.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/socket/models/chat-message.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="chat.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="189">
+              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -84,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chat.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -110,12 +112,13 @@
       <list>
         <option value="$PROJECT_DIR$/client/src/app/socket/service/web-socket.service.ts" />
         <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/nodeserver/server.js" />
-        <option value="$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts" />
         <option value="$PROJECT_DIR$/client/src/environments/environment.prod.ts" />
-        <option value="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts" />
         <option value="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.html" />
         <option value="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css" />
+        <option value="$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/socket/models/chat-message.ts" />
+        <option value="$PROJECT_DIR$/nodeserver/server.js" />
+        <option value="$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts" />
       </list>
     </option>
   </component>
@@ -271,6 +274,15 @@
               <item name="AngularAudioRecordChatSocket" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularAudioRecordChatSocket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularAudioRecordChatSocket" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="environments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,12 +352,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524001624752</updated>
       <workItem from="1524001626041" duration="3992000" />
-      <workItem from="1524005861581" duration="1975000" />
+      <workItem from="1524005861581" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5967000" />
+    <option name="totallyTimeSpent" value="6893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,14 +474,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeserver/public/3rdpartylicenses.txt" />
-    <entry file="file://$PROJECT_DIR$/nodeserver/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodeserver/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -496,16 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -514,21 +508,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/app/socket/service/chat.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="189">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.css">
+    <entry file="file://$PROJECT_DIR$/client/src/app/socket/models/chat-message.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeserver/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/socket/components/chat/chat.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

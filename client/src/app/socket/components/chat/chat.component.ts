@@ -1,23 +1,35 @@
 import {Component, OnInit} from '@angular/core';
 import {ChatService} from '../../service/chat.service';
+import {ChatMessage} from "../../models/chat-message";
 
 @Component({
-  selector: 'app-chat',
-  templateUrl: './chat.component.html',
-  styleUrls: ['./chat.component.css']
+    selector: 'app-chat',
+    templateUrl: './chat.component.html',
+    styleUrls: ['./chat.component.css']
 })
 export class ChatComponent implements OnInit {
-  message: string;
-  messages: string;
-  constructor(private chat: ChatService) {
-  }
+    message: string;
+    messages = '';
 
-  ngOnInit() {
+    constructor(private chat: ChatService) {
+    }
 
-  }
+    ngOnInit() {
+        this.chat.messageSubject.subscribe((message: ChatMessage) => {
+            this.newMessage(message);
+        });
+    }
 
-  sendMessage() {
-    this.chat.sendMessage(this.message);
-    this.message = '';
-  }
+    /**
+     * send message
+     *
+     */
+    sendMessage() {
+        this.chat.sendMessage(this.message);
+        this.message = '';
+    }
+
+    newMessage(message: ChatMessage) {
+        this.messages += '\n' + message.sender + ' : ' + message.text;
+    }
 }
