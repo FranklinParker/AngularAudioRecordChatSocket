@@ -1,0 +1,5 @@
+---
+applications:
+ - name: SpeechToText
+   host: mortgage-speechtotext
+   memory: 256M
