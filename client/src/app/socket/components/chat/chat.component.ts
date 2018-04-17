@@ -7,6 +7,8 @@ import {ChatService} from '../../service/chat.service';
   styleUrls: ['./chat.component.css']
 })
 export class ChatComponent implements OnInit {
+  message: string;
+  messages: string;
   constructor(private chat: ChatService) {
   }
 
@@ -15,6 +17,7 @@ export class ChatComponent implements OnInit {
   }
 
   sendMessage() {
-    this.chat.sendMessage('Test Message');
+    this.chat.sendMessage(this.message);
+    this.message = '';
   }
 }

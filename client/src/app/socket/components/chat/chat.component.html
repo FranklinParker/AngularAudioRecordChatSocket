@@ -1,13 +1,28 @@
-<div class="row m-5">
-    <div class="col">
-        <div class="form-group">
-            <label>Message</label>
-            <input class="form-control">
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-header">
+            <h4>Messages</h4>
+        </div>
+        <div class="card-body">
+           <textarea class="form-control chat-messages"
+                     [(ngModel)]="messages">
+           </textarea>
         </div>
     </div>
-</div>
-<div class="row m-5">
-    <div class="col-3">
-        <button class="btn btn-primary" (click)="sendMessage()"> Send Message</button>
+
+
+    <div class="row m-2">
+        <div class="col">
+            <div class="form-group">
+                <label>Message</label>
+                <input class="form-control form-control-sm"
+                       [(ngModel)]="message">
+            </div>
+        </div>
+    </div>
+    <div class="row m-2">
+        <div class="col-3">
+            <button class="btn btn-primary btn-sm" (click)="sendMessage()"> Send Message</button>
+        </div>
     </div>
 </div>
